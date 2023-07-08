@@ -1,0 +1,43 @@
+.flex-container {
+   display: flex;
+   background-color: aquamarine;
+   flex-direction: row;
+   /* height: 800px; */
+}
+
+.flex-item {
+   width: 150px;
+   height: 50px;
+   background-color: aqua;
+   border: 2px solid black;
+}
+
+.flex-wrap {
+   display: flex;
+   background-color: aquamarine;
+   flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+   display: flex;
+   background-color: aquamarine;
+   flex-wrap: wrap-reverse;
+}
+
+.flex-center {
+   display: flex;
+   background-color: aquamarine;
+   justify-content: center;
+}
+
+.flex-space-around {
+   display: flex;
+   background-color: aquamarine;
+   justify-content: space-around;
+}
+
+.flex-space-between {
+   display: flex;
+   background-color: aquamarine;
+   justify-content: space-between;
+}

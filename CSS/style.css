@@ -1,0 +1,65 @@
+.title-1 {
+    color: #aa0b0b;
+    background-color: aqua;
+    padding: 15px;
+}
+
+#image-1 {
+    padding: 20px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+/* Type Selector */
+h4 {
+    color: blue;
+    background-color: aquamarine;
+}
+
+/* ID Selctor */
+#img-22 {
+    border-radius: 20px;
+    border: 6px solid #aa0b0b;
+    width: 25%;
+}
+
+/* Class Selector */
+.description {
+    color: chartreuse;
+    background-color: rgb(81, 79, 79);
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Universal Selector */
+* {
+    /* background-color: #aa0b0b; */
+    margin: 0;
+}
+
+/* Child Selector */
+body > label > p {
+    background-color: chocolate;
+    margin: 20px;
+    font-size: 20px;padding: 15px;
+}
+
+.acpt-1, .acpt-2, .acpt-3{
+    background-color: blueviolet;
+    font-size: 20px;
+    margin: 20px;
+}
+
+#name {
+    background-color: blue;
+}
+
+.my-name {
+    background-color: orange !important;
+}
+
+.box-model {
+    padding: 30px;
+    border: 20px solid yellow;
+    margin: 40px;
+}
