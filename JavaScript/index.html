@@ -44,9 +44,24 @@
     //     {name: "Kasun", age: 20, address: "Horana"},
     //     {name: "Namal", age: 21, address: "Colombo"}
     // ]
+</script>
 
+<h2>For Loops</h2>
+<div>BMW</div><br>
+<div>Volvo</div><br>
+<div>Ford</div><br>
 
+<div id="demo"></div>
 
+<script type="text/javascript">
+    const car = ["BMW", "Volvo", "Ford"];
+    let text = "";
+    let i = 0
+    for (;i < car.length; ){
+        text += car[i] + "<br>";
+        i++;
+    }
+    document.getElementById("demo").innerHTML = text
 </script>
 </body>
 </html>
