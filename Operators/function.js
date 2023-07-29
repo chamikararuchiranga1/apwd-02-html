@@ -116,4 +116,18 @@ for(let i = 0; i <= 5; i++){
     console.log(i);
 }
 
+// For in
+const child = {name: "kasun", age: 22, address: "panadura"}
+// console.log(child.name)
+let text = ""
+for (let x in child){
+    // console.log(x)
+    console.log(x +": "+child[x])
+}
+
+const car = ["BMW", "Volvo", "Ford"];
+// console.log(car[2]);
+for (let a in car){
+    console.log(car[a]);
+}
 
