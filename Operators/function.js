@@ -141,3 +141,11 @@ for(let w of acpt){
     console.log(w);
 }
 
+console.log("----------- While loop ------------")
+// While loop
+let n = 0;
+while (n < 5){
+    console.log(n);
+    n++;
+}
+
