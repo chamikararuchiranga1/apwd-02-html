@@ -149,3 +149,11 @@ while (n < 5){
     n++;
 }
 
+console.log("----------- Do While loop ------------")
+// Do While
+let o = 0;
+do {
+    o++;
+    console.log(o)
+}
+while (o < 5)
