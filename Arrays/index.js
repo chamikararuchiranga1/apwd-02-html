@@ -14,4 +14,28 @@ cars[1] = "Volvo";
 cars[2] = "Saab";
 console.log(cars);
 
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// console.log(fruits)
+
+// array length
+console.log(fruits.length);
+
+// pop
+fruits.pop()
+console.log(fruits);
+
+// push
+fruits.push("Mango");
+console.log(fruits);
+
+// shift
+fruits.shift();
+console.log(fruits);
+
+//unShift
+fruits.unshift("Banana");
+console.log(fruits);
+
+
+
 
