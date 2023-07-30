@@ -157,3 +157,25 @@ do {
     console.log(o)
 }
 while (o < 5)
+
+console.log("----------- Break ------------")
+// Break
+
+for(let i = 0; i < 10; i++){
+    if(i === 7){break;}
+    console.log("The Number is : ",i);
+}
+
+let m = 0;
+while (m < 5){
+    if(m === 2){break;}
+    console.log("While number : ",m);
+    m++;
+}
+
+console.log("----------- Continue ------------")
+// Continue
+for(let i = 0; i < 10; i++){
+    if(i === 3){continue;}
+    console.log("The Number is : ",i);
+}
