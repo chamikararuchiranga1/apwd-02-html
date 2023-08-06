@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event</title>
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="load()">
+<h1>Event</h1>
+<button
+        onmouseover="mouseOver()"
+        onmouseout="mouseOut()"
+        onclick="clickMe()"
+        class="btn-click"
+>CLick Me
+</button>
+<br><br>
+
+<input
+        onkeydown="onKeyDown()"
+        onkeyup="onKeyUp()"
+        onkeypress="onKeyPress()"
+        onchange="onChange()"
+        class="input"
+>
+
+<br><br>
+<input
+        onkeyup="onChangeText()"
+        class="input"
+        type="text" id="input-1"
+>
+<button
+        onclick="submit()"
+        class="btn-click"
+        id="btn-1"
+        onmouseover="onButtonChange()"
+        onmouseout="onButtonChangeOut()"
+>Submit
+</button>
+
+
+</body>
+</html>

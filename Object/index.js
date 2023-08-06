@@ -5,10 +5,18 @@ let person = {
     lastName: "Ruchiranga",
     eyeColor: "blue",
     run: function (){
-        alert("run");
+        console.log("Run Person.............")
     }
 }
 
 console.log(person.firstName+" "+person.lastName);
 person.run();
+
+console.log(person);
+
+person.address = "Panadura";
+
+console.log(person);
+
+
 

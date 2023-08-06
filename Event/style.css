@@ -1,0 +1,14 @@
+.btn-click {
+    background-color: red;
+    color: white;
+    width: 150px;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.input {
+    height: 25px;
+    border-radius: 5px;
+}
